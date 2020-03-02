@@ -1,12 +1,29 @@
+/**
+ *@description 基本信息配置
+ *@base 访问路径
+ *@theme 主题设置
+ *@title 标题名称
+ *@description 描述
+ */
+const baseConfig = {
+	basebasePath: 'DevOps', // 部署到GitHub相关的配置
+    theme: 'reco',
+    title: '讯曌科技',
+    description: '一个为开发者和用户创造的筑梦平台',
+}
+
 module.exports = {
     head: [
         ['meta', {name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no'}],
         ['link', {rel: 'icon', href: 'favicon.ico'}]
     ],
-    base: '/DevOps/', // 部署到GitHub相关的配置
-    theme: 'reco',
-    title: '讯曌科技',
-    description: '怀旧的前端想做全栈',
+    base: `/${baseConfig.basePath}/`, // 部署到GitHub相关的配置
+    theme: `${baseConfig.theme}`,
+    title: `${baseConfig.title}`,
+    description: `${baseConfig.description}`,
+	serviceWorker: true,
+    evergreen: true,
+    ga: 'UA-112738831-1',
     plugins: {
         '@vuepress/medium-zoom': {
             selector: 'img.zoom-custom-imgs',
