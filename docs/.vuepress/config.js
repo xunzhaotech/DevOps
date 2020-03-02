@@ -3,9 +3,9 @@ module.exports = {
         ['meta', {name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no'}],
         ['link', {rel: 'icon', href: 'favicon.ico'}]
     ],
-    base: '/myBlog/', // 部署到GitHub相关的配置
+    base: '/DevOps/', // 部署到GitHub相关的配置
     theme: 'reco',
-    title: '小城旧事',
+    title: '讯曌科技',
     description: '怀旧的前端想做全栈',
     plugins: {
         '@vuepress/medium-zoom': {
