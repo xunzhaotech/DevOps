@@ -52,18 +52,20 @@ module.exports = {
             visitor: true // 阅读量统计
         },
         nav: [
-            {text: 'Home', link: '/'},
-            {text: '前端', link: '/web/', items: [
+            {text: '首页', link: '/'},
+            {text: '前端', link: '/web/',
+ 			  items: [
                     {text: 'es6', link: '/web/es6/'},
                     {text: 'vue', link: '/web/vue/'},
                     {text: 'H5', link: '/web/H5/'},
                     {text: 'React', link: '/web/React/'},
-                ]},
+                ]
+			},
             {text: 'nodejs', link: '/node/'},
             {text: 'java', link: '/java/'},
             {text: '时间线', link: '/timeLine/', icon: 'reco-date'},
-            {text: '友链', link: '/friendLink/'},
-            {text: '关于', link: '/nested/',icon: 'account_circle'},
+            {text: '友情链接', link: '/friendLink/'},
+            {text: '关于我们', link: '/nested/',icon: 'account_circle'},
         ],
         sidebar: {
             '/web/es6/': ['es7_decorator','ArrayBuffer','ts_config'],
