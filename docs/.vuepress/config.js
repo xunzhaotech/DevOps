@@ -8,7 +8,7 @@
 const baseConfig = {
 	basePath: 'DevOps', // 部署到GitHub相关的配置
     theme: 'reco',
-    title: '讯曌科技',
+    title: '讯曌科技DEVOPS',
     description: '一个为开发者和用户创造的筑梦平台',
 }
 
