@@ -7,10 +7,10 @@
 
 ## 前端学习
 
-- [ ] HTML(https://github.com/xunzhaotech/DevOps/issues/1)
-- [ ] CSS(https://github.com/xunzhaotech/DevOps/issues/2)
-- [ ] ES5/ES6/ES7/ESB/ES9/ES10(https://github.com/xunzhaotech/DevOps/issues/3)
-- [ ] TYPESCPIPT(https://github.com/xunzhaotech/DevOps/issues/4)
+- [ ] [[HTML](https://github.com/xunzhaotech/DevOps/issues/1)
+- [ ] [CSS](https://github.com/xunzhaotech/DevOps/issues/2)
+- [ ] [ES5/ES6/ES7/ESB/ES9/ES10](https://github.com/xunzhaotech/DevOps/issues/3)
+- [ ] [TYPESCP](https://github.com/xunzhaotech/DevOps/issues/4)
 
 ## 后端学习
 
